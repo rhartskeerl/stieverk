@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ir Sj. Stienstra Adviesbureau Stedelijk Verkeer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/data.js"></script>
+    <script src="scripts/standardElements.js"></script>
+  </head>
+  <body> 
+    <div class="container-vertical">
+      <div class="header">
+        <img src="images/logo.gif" />
+      </div>
+      <div class="container-horizontal">
+        <div class="menu">
+          <script>buildMenu();</script>
+        </div>
+        <div class="container-vertical main-content">
+          <div class="content-top-bar">
+            <span class="breadcrumb"><a href="index.html">home</a> > publicaties</span>
+            <span class="contact-info-links">
+              <a href="info.html">info</a> | <a href="contact.html">contact</a>
+            </span>
+          </div>
+          <div class="content-header">
+            <div class="image"><img src="images/publicaties.jpg" alt=""/></div>
+            <div class="description">
+              <span>
+                <p><b>Publicaties</b><br />
+                <a class="small" href="publicaties.html#parkeren">Parkeren</a><br />
+                <a class="small" href="publicaties.html#eco">Economische effecten van verkeersmaatregelen</a><br />
+                <a class="small" href="publicaties.html#bevoor">Bevoorrading en logistiek</a><br />
+                <a class="small" href="publicaties.html#vervoer">Vervoerwijzekeuze</a><br />
+                <a class="small" href="publicaties.html#onderzoek">Onderzoekmethodiek</a><br />
+                <a class="small" href="publicaties.html#diversen">Diversen</a></p>
+              </span>
+            </div>
+          </div>
+          <div class="content">
+            <a name="parkeren" class="clean"/>
+            <h4>Parkeren</h4>
+            <ul class="list" id="parkeren">
+              
+            </ul>
+            <a name="eco" class="clean"/>
+            <h4>Economische effecten van verkeersmaatregelen</h4>
+            <ul class="list" id="eco">
+              
+            </ul>
+            <a name="bevoor" class="clean"/>
+            <h4>Bevoorrading en logistiek</h4>
+            <ul class="list" id="bevoor">
+              
+            </ul>
+            <a name="vervoer" class="clean"/>
+            <h4>Vervoerwijzekeuze</h4>
+            <ul class="list" id="vervoer">
+              
+            </ul>
+            <a name="onderzoek" class="clean"/>
+            <h4>Onderzoekmethodiek</h4>
+            <ul class="list" id="onderzoek">
+              
+            </ul>
+            <a name="diversen" class="clean"/>
+            <h4>Diversen</h4>
+            <ul class="list" id="diversen">
+              
+            </ul>
+            <script>buildList("publicaties")</script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

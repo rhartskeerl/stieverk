@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ir Sj. Stienstra Adviesbureau Stedelijk Verkeer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/standardElements.js"></script>
+  </head>
+  <body> 
+    <div class="container-vertical">
+      <div class="header">
+        <img src="images/logo.gif" />
+      </div>
+      <div class="container-horizontal">
+        <div class="menu index">
+          <script>buildMenu();</script>
+        </div>
+        <div class="container-vertical main-content">
+          <div class="content-top-bar">
+            <span class="breadcrumb"><a href="index.html">home</a> > contact</span>
+            <span class="contact-info-links">
+              <a href="info.html">info</a> | <a href="contact.html">contact</a>
+            </span>
+          </div>
+          <div class="content-header">
+            <div class="image"><img src="images/publicaties.jpg" alt=""/></div>
+            <div class="description">
+              <span>
+                <b>Contact</b><br/> 
+                <br/> 
+                Vult u hier uw gegevens in en druk op verstuur om de gegevens te versturen<br/>
+              </span>
+            </div>
+          </div>
+          <div class="content">
+            <form action="mailto:stieverk@planet.nl" method="post" enctype="text/plain" name="email" id="email" onSubmit="return mailMe( this.form )">
+              <div class="block">
+                <label>
+                  Naam:
+                </label>
+                <input type="text" name="Van: " />
+              </div>
+              <div class="block">
+                <label>
+                  Adres:
+                </label>
+                <input type="text" name="Adres: " />
+              </div>
+              <div class="block">
+                <label>
+                  Postcode:
+                </label>
+                <input type="text" name="Postcode: " />
+              </div>
+              <div class="block">
+                <label>
+                  Woonplaats:
+                </label>
+                <input type="text" name="Woonplaats: " />
+              </div>
+              <div class="block">
+                <label>
+                  Telefoonnummer:
+                </label>
+                <input type="text" name="Telefoon: " />
+              </div>
+              <div class="block">
+                <label>
+                  Faxnummer:
+                </label>
+                <input type="text" name="Fax: " />
+              </div>
+              <div class="block">
+                <label>
+                  Opmerkingen: 
+                </label>
+                <textarea name="Opmerkingen: "></textarea>
+              </div>
+              <div class="block">
+                <label>
+                  Email
+                </label>
+                <input type="text" name="Email: " />
+              </div>
+              <input type="submit" value="verstuur" /> 
+              <input type="reset" value="wissen" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <script>buildFooter()</script>
+      </div>
+    </div>
+  </body>
+</html>
